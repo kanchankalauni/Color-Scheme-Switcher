@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(82, 202, 200);
+}
+
 .canvas{
-    margin-top: 15%;
-    margin-left: 15%;
-    /* display: block; */
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 90vh;
 }
 
 .button{
     width: 10vw;
-    height: 10vh;
+    height: 20vh;
     border: 1px solid black;
+    box-shadow: 1px 1px 4px 0 rgb(104, 104, 104);
     display: inline-block;
 }
 
